@@ -2,17 +2,20 @@
   "name": "conformit",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://martins81-web.github.io/conformit/",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "node ./node_modules/vue-gh-pages/index.js"
   },
   "dependencies": {
     "bootstrap-vue": "^2.17.3",
     "core-js": "^3.6.5",
     "moment": "^2.29.1",
     "vue": "^2.6.11",
-    "vue-generate-component": "^3.0.1"
+    "vue-generate-component": "^3.0.1",
+    "vue-gh-pages": "^1.19.1"
   },
   "devDependencies": {
     "@babel/polyfill": "^7.11.5",
@@ -50,5 +53,6 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "wst": "/dist/"
 }
