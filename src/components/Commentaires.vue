@@ -1,4 +1,3 @@
-import { GetEventComments } from '../data';
 <template lang="html">
 
   <section class="commentaires">
